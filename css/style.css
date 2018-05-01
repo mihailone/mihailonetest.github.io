@@ -23,8 +23,8 @@ header {
 }
 
 .link {
-    float: right;
-    margin: 30px 0;
+    padding: 30px 0;
+    margin: 0 auto;
 }
 
 body>header>div>div.link>a {
