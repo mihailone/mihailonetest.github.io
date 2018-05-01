@@ -37,7 +37,8 @@
     .team,
     .blog,
     .contact {
-        margin: 0 0px;
+        margin: 0 1px;
+        font-size: 14px;
 
     }
     
