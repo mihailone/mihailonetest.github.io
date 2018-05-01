@@ -1,26 +1,34 @@
 @media screen and (max-width:600px){
-.logo{display: none;}
-.menu{
-    width: 100%;
-    min-width: 480px;
+    .logo{display: none;}
+    .menu{
+        width: 100%;
+        min-width: 360px;
 
-}
-.link{
-    width: 100%;
-}
+    }
+    .link{
+        width: 100%;
+    }
+    .home,
+    .about,
+    .portfolio,
+    .team,
+    .blog,
+    .contact{
+        margin: 0 14px;
+    }
 }
 @media screen and (max-width:480px){
     .home {
         margin-left: 25px!important;
     }
-.home,
-.about,
-.portfolio,
-.team,
-.blog,
-.contact {
-    margin: 0 0px;
+    .home,
+    .about,
+    .portfolio,
+    .team,
+    .blog,
+    .contact {
+        margin: 0 0px;
 
-}
+    }
     
 }
