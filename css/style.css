@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    min-width: 360px;
+    height: 95px;
+    background-color: #303030;
+}
+
+.menu {
+    position: relative;
+    width: 1200px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 157px;
+    height: 36px;
+    float: left;
+    padding: 30px 0;
+}
+
+.link {
+    float: right;
+    margin: 30px 0;
+}
+
+body>header>div>div.link>a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home,
+.about,
+.portfolio,
+.team,
+.blog,
+.contact {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30.07px;
+    text-transform: uppercase;
+    padding: 3px 3px;
+    margin: 0 17px;
+    position: relative;
+}
+.home:after,
+.about:after,
+.portfolio:after,
+.team:after,
+.blog:after,
+.contact:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 100%;
+    height: 6px;
+    background-color:#7b6c63;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+.home:hover:after,
+.about:hover:after,
+.portfolio:hover:after,
+.team:hover:after,
+.blog:hover:after,
+.contact:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 100%;
+    height: 6px;
+    background-color: #7b6c63;
+    opacity: 1;
+}

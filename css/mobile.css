@@ -1,0 +1,26 @@
+@media screen and (max-width:600px){
+.logo{display: none;}
+.menu{
+    width: 100%;
+    min-width: 360px;
+
+}
+.link{
+    width: 100%;
+}
+}
+@media screen and (max-width:360px){
+    .home {
+        margin-left: 20px!important;
+    }
+.home,
+.about,
+.portfolio,
+.team,
+.blog,
+.contact {
+    margin: 0 0px;
+
+}
+    
+}
