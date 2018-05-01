@@ -1,7 +1,15 @@
 @media screen and (min-width:1200px) {
-.link{
-    float: right;
+    .link {
+        float: right;
+    }
 }
+@media screen and (max-width:1200px) {
+    .menu{
+        width: 100%;
+    }
+    .link{
+        float: right;
+    }
 }
 @media screen and (max-width:600px){
     .logo{display: none;}
