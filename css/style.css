@@ -471,4 +471,5 @@ p.popup_text_p {
     margin-left: 25px;
     color: #061e37;
     line-height: 26px;
+    text-align: justify;
 }
