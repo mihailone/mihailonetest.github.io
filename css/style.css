@@ -12,6 +12,37 @@ body{
 
 /*end body*/
 /*start page*/
+.mb_menu {
+    width: 33px;
+    height: 33px;
+    background-image: url("../image/mobile-menu.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: none;
+}
+
+.open_mb_menu {
+    width: 360px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 83px;
+    right: 50%;
+    transform: translateX(50%);
+}
+a.menu_link_mobile:hover {
+    background-color: rgba(51, 51, 51, 0.1);
+}
+a.menu_link_mobile {
+    color: #062037;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 360px;
+}
 .menu_bg {
     background-image: url("../image/bg-image-header.png");
     background-repeat: no-repeat;
@@ -118,7 +149,7 @@ button.sign_up_button:hover {
     align-items: center;
 }
 .fast_info_panel_video_block {
-    width: 598px;
+    width: 600px;
     height: 318px;
     margin-top: -2px;
     background-color: #fff;
@@ -394,7 +425,6 @@ p.services_p {
 
 }
 a.popup_button {
-    width: 94%;
     display: flex;
     margin-left: 50px;
     align-items: center;
@@ -464,8 +494,13 @@ div#popup_5 {
 }
 .popup_image{
     background-image: url("../image/black-iphone-5-beside-paper.png");
-    width: 115%;
+    background-repeat: no-repeat;
+    width: 36%;
     height: 155px;
+    border-radius: 5px;
+}
+.popup_text {
+    width: 80%;
 }
 p.popup_text_p {
     margin-left: 25px;
