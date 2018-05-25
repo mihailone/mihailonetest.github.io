@@ -22,7 +22,8 @@ body{
 }
 
 .open_mb_menu {
-    width: 360px;
+    width: 100%;
+    min-width: 320px;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -41,7 +42,9 @@ a.menu_link_mobile {
     font-size: 20px;
     padding: 15px 0px;
     text-align: center;
-    width: 360px;
+    width: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 .menu_bg {
     background-image: url("../image/bg-image-header.png");
