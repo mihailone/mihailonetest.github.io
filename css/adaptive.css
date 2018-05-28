@@ -72,6 +72,12 @@
     .ease_useful{
         height: 850px;
     }
+    .footer_logo_and_menu{
+        justify-content: space-around;
+    }
+    .social_and_links{
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 900px){
     header {
@@ -124,6 +130,7 @@
     }
     .testimonials{
         flex-wrap: wrap;
+        height: 670px;
     }
     .testimonials_title{
         width: 100%;
@@ -201,13 +208,20 @@
     p.popup_text_p{
         margin-left: 0;
     }
+    .testimonials,
     .testimonials_bg_gr,
     .testimonials_bg_image {
-        height: 744px;
+        height: 810px;
     }
     h1.fast_buy_h,
     p.fast_buy_p {
         margin-left: 10px;
+    }
+    .social_and_links{
+        flex-wrap: wrap;
+    }
+    .footer_s_link {
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -286,12 +300,22 @@
         margin-top: 65px;
         margin-left: 0px;
     }
-
+    .testimonials,
     .testimonials_bg_gr,
     .testimonials_bg_image {
-        height: 810px;
+        height: 1000px;
+    }
+    p.contact_form_p {
+        flex-wrap: wrap;
     }
 
+    input.text_input {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .subs{
+        margin: 20px;
+    }
 }
 @media screen and (max-width:425px){
     .fast_info_panel_video_block,
@@ -351,8 +375,16 @@
     .testimonials_carousel {
         margin-top: 65px;
     }
+    .testimonials,
     .testimonials_bg_gr,
     .testimonials_bg_image {
-        height: 990px;
+        height: 1000px;
+    }
+    p.contact_form_p{
+        flex-wrap: wrap;
+    }
+    input.text_input{
+        width: 100%;
+        margin-top: 20px;
     }
 }
