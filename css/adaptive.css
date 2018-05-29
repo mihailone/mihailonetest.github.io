@@ -223,6 +223,16 @@
     .footer_s_link {
         margin-top: 20px;
     }
+    p.contact_form_p {
+        margin: 15px;
+    }
+    .contact_form_text_block{
+        margin: 0 15px;
+    }
+    .subs{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 @media screen and (max-width: 480px) {
     header {
